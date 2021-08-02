@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background: url(../images/bg-intro-mobile.png) #ff7a7a;
+}
+
+body .container {
+  width: 85%;
+  margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left {
+  padding-bottom: 3rem;
+  color: white;
+}
+
+.left h1 {
+  text-align: center;
+  line-height: 1.4;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.left p {
+  text-align: center;
+  line-height: 1.8;
+  width: 100%;
+  font-weight: 400;
+}
+
+.right .btn {
+  width: 100%;
+  background: #6055a5;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  color: white;
+  text-align: center;
+  -webkit-box-shadow: 0 7px rgba(61, 59, 74, 0.3);
+          box-shadow: 0 7px rgba(61, 59, 74, 0.3);
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.right .btn span {
+  font-weight: 600;
+}
+
+.right section {
+  width: 100%;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 7px rgba(61, 59, 74, 0.3);
+          box-shadow: 0 7px rgba(61, 59, 74, 0.3);
+}
+
+.right section .form-field {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.right section .form-field input {
+  width: 100%;
+  display: block;
+  padding: 1rem 1rem;
+  border: 2px solid #b9b6d3;
+  border-radius: 4px;
+  color: #3d3b4a;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.right section .form-field.error input {
+  border-color: #ff7a7a;
+}
+
+.right section .form-field i {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #ff7a7a;
+  visibility: hidden;
+}
+
+.right section .form-field.error i {
+  visibility: visible;
+}
+
+.right section .form-field small {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #ff7a7a;
+  visibility: hidden;
+}
+
+.right section .form-field.error small {
+  visibility: visible;
+}
+
+.right section input[type="submit"] {
+  width: 100%;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #38cc8c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 5px #2fb67c;
+          box-shadow: 0 5px #2fb67c;
+}
+
+.right section p {
+  font-size: 0.75rem;
+  color: #b9b6d3;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.right section p span {
+  color: #ff7a7a;
+  font-weight: 700;
+}
+
+@media (min-width: 500px) {
+  body {
+    background: url(../images/bg-intro-desktop.png) #ff7a7a;
+  }
+  body .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 100px;
+  }
+  .left h1 {
+    text-align: left;
+    font-size: 3rem;
+  }
+  .left p {
+    text-align: left;
+  }
+  .right .btn {
+    width: 500px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .right section {
+    padding: 2rem;
+  }
+  .right input[type="submit"] {
+    letter-spacing: 1px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
