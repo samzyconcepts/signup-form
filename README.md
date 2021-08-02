@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/samzyconcepts/signup-form.git)
-- Live Site URL: [Live Site](https://article-preview-samzyconcepts.vercel.app)
+- Live Site URL: [Live Site](https://signup-form-samzyconcepts.vercel.app/)
 
 ### Built with
 
@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Continued development
 
-Yeah!! I will like to refine my Javascript, I need some ways to refactor my javascript code.
+Want to learn more about JS
 A little patch up on my sass...
 
 
