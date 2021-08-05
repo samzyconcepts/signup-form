@@ -13,7 +13,7 @@ body {
 }
 
 body .container {
-  width: 85%;
+  max-width: 85%;
   margin: 5rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,7 +40,7 @@ body .container {
   line-height: 1.4;
   padding-bottom: 1rem;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .left p {
@@ -150,16 +150,19 @@ body .container {
   font-weight: 700;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 900px) {
   body {
     background: url(../images/bg-intro-desktop.png) #ff7a7a;
   }
   body .container {
+    max-width: 75%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 100px;
+    height: 100vh;
+    margin: 0 auto;
+    gap: 15px;
   }
   .left h1 {
     text-align: left;

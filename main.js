@@ -3,6 +3,8 @@ const firstName = document.querySelector('#firstName'),
   email = document.querySelector('#email'),
   password = document.querySelector('#password');
 
+
+// target the form for submission
 document.querySelector('#form').addEventListener('submit', function (e) {
   e.preventDefault();
 
@@ -10,6 +12,8 @@ document.querySelector('#form').addEventListener('submit', function (e) {
   checkInput();
 })
 
+
+// inputs function
 function checkInput() {
   const firstNameValue = firstName.value.trim(),
     lastNameValue = lastName.value.trim(),
